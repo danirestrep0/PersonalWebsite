@@ -1,0 +1,138 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+a {
+    color: #56a3a6;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Header */
+.header {
+    background-color: #56a3a6;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+.header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.header nav ul li {
+    display: inline;
+}
+
+.header nav ul li a {
+    color: white;
+    font-weight: bold;
+}
+
+/* Main Container */
+.container {
+    display: flex;
+    gap: 2rem;
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.blog-post {
+    background-color: white; /* White background */
+    padding: 20px; /* Add space inside the container */
+    border-radius: 8px; /* Optional: Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Subtle shadow */
+    max-width: 800px; /* Limit the width */
+    margin: 20px auto; /* Center the container with vertical spacing */
+}
+
+.post-title {
+    margin-bottom: 10px; /* Space between the title and the meta text */
+}
+
+.post-meta {
+    font-size: 0.9em; /* Smaller font size for meta text */
+    color: gray; /* Muted color for meta text */
+}
+
+.post-content {
+    line-height: 1.6; /* Improve readability */
+}
+
+.featured-image {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+}
+
+.post-content p {
+    margin-bottom: 1rem;
+}
+
+/* Sidebar */
+.sidebar {
+    flex: 1;
+    background: white;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar h3 {
+    margin-bottom: 1rem;
+    color: #56a3a6;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 0.8rem;
+}
+
+/* Footer */
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    font-size: 0.9rem;
+}
+.small-images {
+    text-align: center; /* Centers the images horizontally */
+    margin-top: 20px; /* Adds space between the text and images */
+}
+
+.small-images img {
+    width: 200px; /* Adjust the size of the images */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Ensure each image appears on a new line */
+    margin: 10px auto; /* Add spacing and center the images */
+}
+.title-image {
+    height: 30x;
+    margin-left: 10px;
+    vertical-align: middle;
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Daniela's Portfolio">
+    <title>Daniela's Portfolio</title>
+    <link rel="stylesheet" href="websitestyle.css">
+</head>
+<body>
+    <!-- Navigation Menu -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#currentprojects">Currently Working On...</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="blog-post.html">Blog</a></li>
+            </ul>
+            <p><a href="https://www.linkedin.com/in/daniela-restrepo-877686273" target="_blank" rel="noopener noreferrer">LinkedIn</a></p>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="section home">
+        <h1>Daniela's Personal Page</h1>
+        <p>Hi! I'm Daniela, a third-year Computational Media major at Georgia Tech. I love blending creativity with technology through media design and am pursuing a career in Media/Graphic Design with implementations of programming within that.</p>
+        <p>Feel free to explore my portfolio and projects!</p>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="section portfolio">
+        <h2>My Portfolio</h2>
+        <div class="project">
+            <h3>WanderSync: A Collaborative Travel App</h3>
+            <p>WanderSync allows users to plan dates, locations, and accommodations with their invited friends for their upcoming trips!</p>
+            <p>This project was made in Fall 2024 as part of my CS2340 class. </p>
+            <a href="blog-post.html">Read More</a>
+        </div>
+        <!-- Add more projects here -->
+    </section>
+
+    <!-- Projects/Blog Section -->
+    <section id="currentprojects" class="section currentprojects">
+        <h2>Currently working on...</h2>
+        <article>
+            <h3>My first semester at Georgia Tech! (I transferred!)</h3>
+            <p>I'm currently taking CS1332, MATH2550, LMC2700, PSYC2210, and CS2340.</p>
+            <h3>I'm also currently completing Aliena Cai's Fast Track UX Course to better my skills with Figma.</h3>
+        </article>
+        <!-- Add more blog posts here -->
+    <section id="contact" class="section contact">
+        <h2>Contact Me</h2>
+        <form action="mailto:1danielarestrepo1@gmail.com" method="post" enctype="text/plain">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+    <!--Back to Top-->
+    <button id="backToTop" style="display: none;">↑</button>
+<script>
+    const btn = document.getElementById('backToTop');
+    window.onscroll = () => btn.style.display = window.scrollY > 200 ? 'block' : 'none';
+    btn.onclick = () => window.scrollTo({ top: 0, behavior: 'smooth' });
+</script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css">
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>AOS.init();</script>
+</body>
+</html>

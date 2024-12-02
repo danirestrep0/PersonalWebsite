@@ -1,0 +1,229 @@
+/* Global Styles */
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+}
+
+header {
+    background-color: #f4f4f4;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+    transition: color 0.3s ease, border-bottom 0.3s ease;
+}
+nav ul li a:hover {
+    color: #007acc;
+    border-bottom: 2px solid #007acc;
+}
+
+
+.section {
+    padding: 3rem 1rem;
+    text-align: center;
+}
+
+h1, h2, h3 {
+    color: black; /* Matcha-inspired green */
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+/* Home Section */
+.home {
+    background: linear-gradient(135deg, blue, #00f2fe);
+    color: white;
+}
+
+
+.home p {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 1rem auto;
+}
+
+/* Portfolio Section */
+.portfolio {
+    background-color: #f0f4f7; /* Light blue background */
+}
+
+.portfolio .project {
+    margin: 2rem 0;
+}
+
+.project img {
+    width: 60%;
+    margin-bottom: 1rem;
+}
+
+.project a {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: #56a3a6;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.project a:hover {
+    background-color: #449490;
+}
+
+/* Projects Section */
+.currentprojects {
+    background: linear-gradient(135deg, blue, #00f2fe);
+    color: white;
+}
+
+.currentprojects article {
+    margin-bottom: 2rem;
+}
+
+.currentprojects a {
+    color: #56a3a6;
+    text-decoration: underline;
+}
+
+.currentprojects a:hover {
+    color: #449490;
+}
+
+/* Contact Section */
+.contact {
+    background-color: #f0f4f7;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 1rem;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    padding: 0.7rem 2rem;
+    background-color: blue;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: blueviolet;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+footer p {
+    margin: 0;
+}
+/* Contact Section */
+.contact {
+    background-color: #f0f4f7; /* Light blue background for consistency */
+    padding: 3rem 1rem;
+    text-align: center;
+}
+
+.contact h2 {
+    color: #56a3a6; /* Matcha-inspired green for headers */
+    margin-bottom: 2rem;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #fff; /* Clean white background for contrast */
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    color: #333;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 1.5rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    box-sizing: border-box; /* Prevents padding from affecting width */
+}
+
+input:focus, textarea:focus {
+    outline: none;
+    border-color: #56a3a6;
+    box-shadow: 0 0 5px rgba(86, 163, 166, 0.5); /* Matcha-inspired glow effect */
+}
+
+button {
+    padding: 0.7rem 2rem;
+    background-color: blue; /* Matcha-inspired green */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out; /* Smooth hover transition */
+}
+
+button:hover {
+    background-color: blueviolet; /* Darker green for hover state */
+}
+
+button:active {
+    background-color: blueviolet; /* Even darker green for active state */
+}
+
+.contact p {
+    margin-top: 1.5rem;
+    font-size: 0.9rem;
+    color: #777; /* Subtle text color for additional information */
+}
+
