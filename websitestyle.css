@@ -226,4 +226,36 @@ button:active {
     font-size: 0.9rem;
     color: #777; /* Subtle text color for additional information */
 }
+/* Banner Styles */
+.banner {
+    background-color: #333; /* Dark background color */
+    color: white; /* White text color */
+    text-align: center; /* Center the text */
+    padding: 1rem 0; /* Padding for space around the text */
+    font-size: 1.2rem; /* Text size */
+    font-weight: bold; /* Make the text bold */
+    position: relative;
+    top: -50px; /* Start above the screen */
+    width: 100%;
+    z-index: 1000; /* Ensure it appears above other content */
+    animation: slideDown 1s ease-out forwards; /* Apply animation */
+}
 
+/* Animation: Slide down effect */
+@keyframes slideDown {
+    0% {
+        top: -50px; /* Start off-screen */
+    }
+    100% {
+        top: 0; /* Slide to its normal position */
+    }
+}
+
+.banner p {
+    margin: 0; /* Remove default margin */
+}
+
+/* Optional: Add hover effect for the banner */
+.banner:hover {
+    background-color: #555; /* Lighter background color on hover */
+}
