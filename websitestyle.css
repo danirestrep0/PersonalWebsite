@@ -43,7 +43,7 @@ nav ul li a:hover {
 }
 
 h1, h2, h3 {
-    color: black; /* Matcha-inspired green */
+    color: black;
 }
 
 img {
@@ -82,7 +82,7 @@ img {
 .project a {
     display: inline-block;
     padding: 0.5rem 1rem;
-    background-color: #56a3a6;
+    background-color: blue;
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
@@ -108,7 +108,7 @@ img {
 }
 
 .currentprojects a:hover {
-    color: #449490;
+    color: blue;
 }
 
 /* Contact Section */
